@@ -6,12 +6,12 @@ Selenium - Automation.
 3. Add jars to external library on java project follow this link http://toolsqa.com/selenium-webdriver/configure-eclipse-with-selenium-webdriver/
 3. Install TestNG plugin, follow this link (find "how to install" from README.md) https://github.com/cbeust/testng-eclipse/
 4. Setup example for:
-   - firefox driver:
+   - firefox driver:<br />
      System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
      driver = new FirefoxDriver();<br />
      driver.get("http://www.google.com");<br />
      driver.quit();<br />
-   - chrome driver:
+   - chrome driver:<br />
      System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
      WebDriver driver = new ChromeDriver();<br />
      driver.get("http://www.google.com");<br />
