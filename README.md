@@ -1,17 +1,17 @@
 Selenium - Automation. 
 
 #Configuration
-1. Download Selenium client & Web driver Language Bindings for java www.seleniumhq.org/download/
-2. Download Gecko for firefox from https://github.com/mozilla/geckodriver/releases OR chromedriver for chrome jar from https://sites.google.com/a/chromium.org/chromedriver/
+1. Download <b>Selenium client & Web driver Language Bindings</b> for java www.seleniumhq.org/download/
+2. Download <b>geckodriver</b> for firefox from https://github.com/mozilla/geckodriver/releases OR <b>chromedriver</b> for chrome jar from https://sites.google.com/a/chromium.org/chromedriver/
 3. Add jars to external library on java project follow this link http://toolsqa.com/selenium-webdriver/configure-eclipse-with-selenium-webdriver/
 3. Install TestNG plugin, follow this link (find "how to install" from README.md) https://github.com/cbeust/testng-eclipse/
 4. Setup example for:
-   - firefox driver:<br />
+   - <b>firefox driver:</b><br />
      System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
      driver = new FirefoxDriver();<br />
      driver.get("http://www.google.com");<br />
      driver.quit();<br />
-   - chrome driver:<br />
+   - <b>chrome driver:</b><br />
      System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
      WebDriver driver = new ChromeDriver();<br />
      driver.get("http://www.google.com");<br />
