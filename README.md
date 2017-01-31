@@ -7,15 +7,15 @@ Selenium - Automation.
 3. Install TestNG plugin, follow this link (find "how to install" from README.md) https://github.com/cbeust/testng-eclipse/
 4. Setup example for:
    - firefox driver:
-     System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");__
-     driver = new FirefoxDriver();__
-     driver.get("http://www.google.com");__
-     driver.quit();__
+     System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
+     driver = new FirefoxDriver();<br />
+     driver.get("http://www.google.com");<br />
+     driver.quit();<br />
    - chrome driver:
-     System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe");__
-     WebDriver driver = new ChromeDriver();__
-     driver.get("http://www.google.com");__
-     driver.quit();__
+     System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
+     WebDriver driver = new ChromeDriver();<br />
+     driver.get("http://www.google.com");<br />
+     driver.quit();<br />
 
 #Selenium Script 
 
