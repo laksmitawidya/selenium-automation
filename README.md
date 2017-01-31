@@ -1,1 +1,6 @@
-# Selenium - Automation. 1. Please download selenium client & Web driver Language Bindings for java (jar) -> Extract to folder -> add external library on project 2. Download gecko/chromedriver on www.seleniumhq.org/download/
+#Selenium - Automation. 
+
+Download jar from www.seleniumhq.org/download/
+
+1. Selenium client & Web driver Language Bindings for java (jar) 
+2. Gecko for firefox/chromedriver for chrome 
