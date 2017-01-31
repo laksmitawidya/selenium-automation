@@ -1,4 +1,4 @@
-<h3>Selenium - Automation.</h3> 
+<span style="color: green"><h3>Selenium - Automation.</h3> </span>
 
 #Configuration
 1. Download <b>Selenium client & Web driver Language Bindings</b> for java www.seleniumhq.org/download/
