@@ -1,4 +1,4 @@
-<h3 style="color: green">Selenium - Automation.</h3>
+<h3 style="color: green">Selenium - Automation using Eclipse.</h3>
 
 #Configuration
 1. Download <b>Selenium client & Web driver Language Bindings</b> for java www.seleniumhq.org/download/
