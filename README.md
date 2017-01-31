@@ -1,4 +1,4 @@
-Selenium - Automation. 
+<h1>Selenium - Automation.</h1> 
 
 #Configuration
 1. Download <b>Selenium client & Web driver Language Bindings</b> for java www.seleniumhq.org/download/
