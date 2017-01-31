@@ -10,10 +10,12 @@ Selenium - Automation.
      System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");
      driver = new FirefoxDriver();
      driver.get("http://www.google.com");
+     driver.quit();
    - chrome driver:
      System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe");
      WebDriver driver = new ChromeDriver();
      driver.get("http://www.google.com");
+     driver.quit();
 
 #Selenium Script 
 
