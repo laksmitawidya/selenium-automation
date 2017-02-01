@@ -6,7 +6,7 @@
 3. Add <b>jars to external library</b> on java project follow this link http://toolsqa.com/selenium-webdriver/configure-eclipse-with-selenium-webdriver/
 3. Install <b>TestNG plugin</b>, follow this link (find "how to install" from README.md) https://github.com/cbeust/testng-eclipse/
 4. Setup example for:
-   - <b>firefox driver:</b><br />
+   - <b>Firefox driver:</b><br />
      
      ````js
      System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
@@ -15,7 +15,7 @@
      driver.quit();<br />
      ````
      
-   - <b>chrome driver:</b><br />
+   - <b>Chrome driver:</b><br />
    
      ````js
      System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
