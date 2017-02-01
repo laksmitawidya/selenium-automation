@@ -9,19 +9,19 @@
    - <b>Firefox driver:</b><br />
      
      ````js
-     System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
-     driver = new FirefoxDriver();<br />
-     driver.get("http://www.google.com");<br />
-     driver.quit();<br />
+     System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");
+     driver = new FirefoxDriver();
+     driver.get("http://www.google.com");
+     driver.quit();
      ````
      
    - <b>Chrome driver:</b><br />
    
      ````js
-     System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
-     WebDriver driver = new ChromeDriver();<br />
-     driver.get("http://www.google.com");<br />
-     driver.quit();<br />
+     System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")
+     WebDriver driver = new ChromeDriver();
+     driver.get("http://www.google.com");
+     driver.quit();
      ````
 
 #Selenium Script 
@@ -31,5 +31,6 @@
 
 #Java 
 
-- Learn java can be found from this link https://www.codecademy.com/learn/learn-java
+- Learn/best practice using java language can be found from this link https://www.codecademy.com/learn/learn-java
 
+`HAPPY TESTING!` 
