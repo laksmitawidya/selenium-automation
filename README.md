@@ -7,15 +7,19 @@
 3. Install <b>TestNG plugin</b>, follow this link (find "how to install" from README.md) https://github.com/cbeust/testng-eclipse/
 4. Setup example for:
    - <b>firefox driver:</b><br />
+      ````js
      System.setProperty("webdriver.gecko.driver", "C:\\pathto\\my\\geckodriver.exe");<br />
      driver = new FirefoxDriver();<br />
      driver.get("http://www.google.com");<br />
      driver.quit();<br />
+     ````
    - <b>chrome driver:</b><br />
+      ````js
      System.setProperty("webdriver.chrome.driver", "C:\\pathto\\my\\chromedriver.exe")<br />
      WebDriver driver = new ChromeDriver();<br />
      driver.get("http://www.google.com");<br />
      driver.quit();<br />
+     ````
 
 #Selenium Script 
 
