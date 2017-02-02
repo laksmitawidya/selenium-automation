@@ -28,6 +28,7 @@
 
 1. Selenium script can be found in this link: http://www.guru99.com/accessing-forms-in-webdriver.html
 2. Exception / error handling can be found from this link : http://toolsqa.com/selenium-webdriver/exception-handling-selenium-webdriver/
+3. For full screenshot https://www.assertthat.com/posts/selenium_shutterbug_make_custom_screenshots_with_selenium_webdriver, the jars file can be found in http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22selenium-shutterbug%22
 
 #Java 
 
