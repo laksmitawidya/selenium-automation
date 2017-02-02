@@ -23,7 +23,6 @@ public class LoginTest {
 	public static WebDriver driver;
 
 	public static void main(String[] args) throws Exception {
-		// download geckodriver.exe, taruh di spesific location
 		System.setProperty("webdriver.gecko.driver", "E:/SoftwareQA/geckodriver/geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://stageops.tiket.com/");
@@ -31,10 +30,10 @@ public class LoginTest {
 		// login
 		try {
 			driver.findElement(By.linkText("Login")).click();
-			// email sndiri
-			driver.findElement(By.cssSelector("input[placeholder='Email Anda'][name='email']")).sendKeys("");
-			// password sendiri
-			driver.findElement(By.cssSelector("input[placeholder='Kata Sandi'][name='password']")).sendKeys("");
+			driver.findElement(By.cssSelector("input[placeholder='Email Anda'][name='email']"))
+					.sendKeys("testing@tiket.com");
+			driver.findElement(By.cssSelector("input[placeholder='Kata Sandi'][name='password']"))
+					.sendKeys("Testingdev123!");
 			driver.findElement(By.cssSelector("button[name='Login']")).click();
 			Thread.sleep(2000);
 			String loginText = driver.findElement(By.className("profileView")).getText();
@@ -51,7 +50,6 @@ public class LoginTest {
 		driver.quit();
 	}
 
-	// visible ss
 	public static void takeScreenShot(String fileName) throws IOException {
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File screenshotLocation = new File("E:/hasilss/" + fileName + ".jpg");
