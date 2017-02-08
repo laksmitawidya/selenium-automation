@@ -20,9 +20,9 @@ public class SeleniumWebTesting extends CapabilitiesSetup {
 	public void login() throws InterruptedException {
 		driver.findElement(By.linkText("Login")).click();
 		driver.findElement(By.cssSelector("input[placeholder='Email Anda'][name='email']"))
-				.sendKeys("testing@tiket.com");
+				.sendKeys("");
 		driver.findElement(By.cssSelector("input[placeholder='Kata Sandi'][name='password']"))
-				.sendKeys("Testingdev123!");
+				.sendKeys("");
 		driver.findElement(By.cssSelector("button[name='Login']")).click();
 		Thread.sleep(2000);
 		String loginText = driver.findElement(By.className("profileView")).getText();
@@ -50,12 +50,12 @@ public class SeleniumWebTesting extends CapabilitiesSetup {
 		
 		// insert identitiy
 		driver.findElement(By.id("fullname")).sendKeys("Testin Hotel");
-		driver.findElement(By.id("phonenumber")).sendKeys("08562860652");
-		driver.findElement(By.id("youremail")).sendKeys("testing@tiket.com");
+		driver.findElement(By.id("phonenumber")).sendKeys("");
+		driver.findElement(By.id("youremail")).sendKeys("");
 		WebElement mySelectElement = driver.findElement(By.name("express_country"));
 		org.openqa.selenium.support.ui.Select dropdown = new org.openqa.selenium.support.ui.Select(mySelectElement);
 		dropdown.selectByVisibleText("Indonesia");
-		driver.findElement(By.id("txt_card_number")).sendKeys("4111111111111111");
+		driver.findElement(By.id("txt_card_number")).sendKeys("");
 		WebElement month = driver.findElement(By.name("txt_expire_month"));
 		org.openqa.selenium.support.ui.Select monthdropdown = new org.openqa.selenium.support.ui.Select(month);
 		monthdropdown.selectByVisibleText("01 - Jan");
@@ -64,8 +64,8 @@ public class SeleniumWebTesting extends CapabilitiesSetup {
 		org.openqa.selenium.support.ui.Select yeardropdown = new org.openqa.selenium.support.ui.Select(tahun);
 		yeardropdown.selectByVisibleText("2019");
 
-		driver.findElement(By.id("txt_card_holder_name")).sendKeys("Laksmita");
-		driver.findElement(By.id("txt_identification_number")).sendKeys("123");
+		driver.findElement(By.id("txt_card_holder_name")).sendKeys("");
+		driver.findElement(By.id("txt_identification_number")).sendKeys("");
 
 		driver.findElement(By.className("complete")).click();
 		driver.switchTo().alert().accept();
@@ -90,9 +90,9 @@ public class SeleniumWebTesting extends CapabilitiesSetup {
 		Thread.sleep(3000);
 		
 		// insert identity
-		driver.findElement(By.id("fullname")).sendKeys("Laksmita");
-		driver.findElement(By.id("phonenumber")).sendKeys("4111111111111111");
-		driver.findElement(By.id("youremail")).sendKeys("testing@tiket.com");
+		driver.findElement(By.id("fullname")).sendKeys("");
+		driver.findElement(By.id("phonenumber")).sendKeys("");
+		driver.findElement(By.id("youremail")).sendKeys("");
 		WebElement mySelectElement = driver.findElement(By.name("express_country"));
 		org.openqa.selenium.support.ui.Select dropdown = new org.openqa.selenium.support.ui.Select(mySelectElement);
 		dropdown.selectByVisibleText("Indonesia");
@@ -108,7 +108,7 @@ public class SeleniumWebTesting extends CapabilitiesSetup {
 		yeardropdown.selectByVisibleText("2019");
 		
 		// insert cvv number
-		driver.findElement(By.id("txt_card_holder_name")).sendKeys("Laksmita");
+		driver.findElement(By.id("txt_card_holder_name")).sendKeys("");
 		driver.findElement(By.id("txt_identification_number")).sendKeys("");
 
 		driver.findElement(By.className("complete")).click();
